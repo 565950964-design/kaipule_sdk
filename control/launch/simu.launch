@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="no-gui" default="false," doc="Start Webots with minimal GUI"/>
+  <include file="$(find webots_ros)/launch/webots.launch">
+    <arg name="mode" value="realtime"/>
+    <arg name="world" value="/opt/kpl/data/webots/Kepler5Robots/worlds/kepler5robotfull_20240725_Afinger.wbt"/>
+  </include>
+</launch>

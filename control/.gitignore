@@ -1,0 +1,9 @@
+.idea
+.vscode
+.swp
+cmake-build-*
+build
+record_data
+devel
+__pycache__
+tags
